@@ -7,9 +7,6 @@ router.get('/', function (req, res, next) {
 });
 
 module.exports = router;
-
-const express = require('express');
-const router = express.Router();
 //Requerimos el controlador que hemos creado
 const AuthController = require("../controllers/UserController");
 //Requerimos el Middelware que hemos creado

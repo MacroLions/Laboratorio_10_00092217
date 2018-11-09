@@ -1,6 +1,6 @@
-const mongoose = requiere('mongoose');
-const User = requiere ("../models/users");
-const bcrypt = requiere('bcrypt');
+const mongoose = require('mongoose');
+const User = require("../models/users");
+const bcrypt = require('bcrypt');
 const AuthMiddleware = {};
 
 //middleware que verifica si una persona esta logueada
